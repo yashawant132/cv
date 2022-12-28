@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>udemy first website</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .container {
+            width: 60%;
+            background-color: #ddd;
+            /* Grey background */
+        }
+
+        .skills {
+            text-align: right;
+            padding-top: 1px;
+            /* Add top padding */
+            padding-bottom: 1px;
+            /* Add bottom padding */
+            color: white;
+            /* White text color */
+        }
+
+        .html {
+            width: 90%;
+            background-color: #04AA6D;
+        }
+
+        /* Green */
+        .css {
+            width: 80%;
+            background-color: #2196F3;
+        }
+
+        /* Blue */
+        .js {
+            width: 65%;
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .php {
+            width: 40%;
+            background-color: #808080;
+        }
+
+        /* Dark Grey */
+        .navbar {
+            background-color: rgb(206, 105, 16);
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .navbar-text {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-text">
+            <h1>Simple Portfolio of Yashwant kumar</h1>
+        </div>
+    </div>
+    <table cellspacing="30">
+        <tr>
+            <td><img src="profile img.png" style="height:200px;" alt=""></td>
+            <td>
+                <h3>Name-Yashwant kumar </h3>
+                <p>Mobile no-9304326143</p>
+                <p>Email-rajaryan132132@gmail.com</p>
+                <p>I ❤️ Engineering</p>
+            </td>
+        </tr>
+    </table>
+    <p> I ❤️ Engineering.When I entered the  main hostel and saw my room, I was horrified, a room where 4 beds would fit with
+        great difficulty.
+        A hospital bed lookalike was allotted to me as well and there were two other room mates they are my college senior, one from uttar pradesh
+        and
+        the other from jharkhand.The first question that came to my mind was how would I mingle with two people
+        from completely different cultures speaking different languages, but then as destiny is, that was the beginning
+        of a never-ending friendship.Now that time this main hostel is just like home.i never forget all memories which was capture during my Engineering
+    </p>
+
+    <hr>
+    <h2>Books and teaching</h2>
+    <ul>
+        <li>Clean Code: By Robert C. Martin</li>
+        <li>Code Complete (2 Edition): By Steve McConnell </li>
+    </ul>
+    <h2>My hobbies</h2>
+    <ol>
+        <li>Reading books</li>
+        <li>playing cricket and vollyball</li>
+        <li>singing a song</li>
+    </ol>
+    <h2>Extra curriculum</h2>
+    <ul>
+        <li>first item</li>
+        <li>
+            second item
+            <!-- Look, the closing </li> tag is not placed here! -->
+            <ul>
+                <li>second item first subitem</li>
+                <li>
+                    second item second subitem
+                    <!-- Same for the second nested unordered list! -->
+                    <ol>
+                        <li>second item second subitem first sub-subitem</li>
+                        <li>second item second subitem second sub-subitem</li>
+                        <li>second item second subitem third sub-subitem</li>
+                    </ol>
+                </li>
+                <!-- Closing </li> tag for the li that
+                            contains the third unordered list -->
+                <li>second item third subitem</li>
+            </ul>
+            <!-- Here is the closing </li> tag -->
+        </li>
+        <li><a href="https://www.youtube.com/">Third element</a></li>
+    </ul>
+    <h2>Academic details</h2>
+    <table border="1">
+        <thead style="background-color: rgb(208, 24, 24);">
+            <tr style="color: white;">
+                <th> Date</th>
+                <th>Course Name</th>
+                <th>Institute's Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2012-2014</td>
+                <td>Matriculation</td>
+                <td>Mahendra singh high school ziradei siwan</td>
+            </tr>
+            <tr style="background-color: rgb(121, 165, 204);">
+                <td>2014-2016</td>
+                <td>intermediate</td>
+                <td>Mahendra singh high school ziradei siwan</td>
+            </tr>
+            <tr>
+                <td>2017-2021</td>
+                <td>Bachelor of Engineering</td>
+                <td>Jadavpur university kolkata</td>
+            </tr>
+            <tr style="background-color: rgb(121, 165, 204);">
+                <td>2022-2024</td>
+                <td>Master of technology</td>
+                <td>jadavpur university kolkata</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>My Skills</h1>
+    <p>HTML</p>
+    <div class="container">
+        <div class="skills html">90%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="container">
+        <div class="skills css">80%</div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="container">
+        <div class="skills js">65%</div>
+    </div>
+
+    <p>Bootstrap</p>
+    <div class="container">
+        <div class="skills php">40%</div>
+    </div>
+</body>
+
+</html>
